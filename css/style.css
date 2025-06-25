@@ -335,6 +335,13 @@ section {
     font-size: 1.3em;
     padding: 0 12px 0 0;
 }
+.card .qr-icon {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
 
 
 @media(max-width:1023px) {
@@ -434,7 +441,7 @@ section {
     .main h3 {
         font-size: 1.4em;
     }
-}
+
 
 .btn-music {
     display: inline-block;
